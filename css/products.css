@@ -1,0 +1,63 @@
+.products{
+
+    text-align:center;
+
+}
+
+
+.product-grid{
+
+    margin-top:60px;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+
+    gap:35px;
+
+}
+
+
+.card{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+.card img{
+
+    height:300px;
+
+    object-fit:cover;
+
+}
+
+
+.card h3{
+
+    margin-top:25px;
+
+}
+
+
+.card p{
+
+    padding:15px 25px 30px;
+
+}
