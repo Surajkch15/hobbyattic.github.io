@@ -139,9 +139,7 @@ p{
 
 .btn:hover{
 
-    transform:translateY(-4px);
-
-    background:#1d4ed8;
+transform:translateY(-5px) scale(1.05);
 
 }
 
