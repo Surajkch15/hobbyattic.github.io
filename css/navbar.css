@@ -1,0 +1,63 @@
+nav{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    padding:22px 8%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    z-index:999;
+
+    backdrop-filter:blur(20px);
+
+    background:rgba(255,255,255,.72);
+
+    border-bottom:1px solid rgba(255,255,255,.25);
+
+}
+
+
+.logo{
+
+    font-size:1.7rem;
+
+    font-weight:700;
+
+}
+
+
+nav ul{
+
+    display:flex;
+
+    gap:45px;
+
+}
+
+
+nav a{
+
+    color:var(--primary);
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+
+nav a:hover{
+
+    color:var(--secondary);
+
+}
